@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/
+fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!--<a href="homepage.html"><img src="imgs/roof.png"></a> --> 
+            <div class="nav-links" id="nawLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="">PROFESSIONAL</a></li>
+                    <li><a href="personalpage.html">PERSONAL</a></li>
+                    <li><a href="aboutpage.html">ABOUT</a></li>
+                    <li><a href="contactpage.html">CONTACT</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="faqpage.html">FAQ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Personal</h1>
+        <section>
+
+    <!--- about us content -->
+    <section class="about-me">
+
+        <div class="row">
+            <div class="about-col">
+                <p>Non-Work Related Gallery</p>
+
+            </div>
+            <div class="about-col"></div>
+        </div>
+
+    </section>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/_DVL1608-2.jpg">
+            <img src="imgs/_DVL1608-2.jpg" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Wagon and Friends 2021</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/_DVL9334.jpg">
+            <img src="imgs/_DVL9334.jpg" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Summer Days 2020</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/IMG_20210505_0050.jpg">
+            <img src="imgs/IMG_20210505_0050.jpg" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Closest Friends</div>
+        </div>
+      </div>
+
+    
+      <div class="clearfix"></div>
+      
+      <div style="padding:6px;">
+
+        
+    </section>
+
+    <!--JavaScript for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            nawLinks.style.right = "0";
+        }
+        function hideMenu(){
+            nawLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

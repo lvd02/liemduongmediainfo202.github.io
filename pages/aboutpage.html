@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/
+fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!--<a href="homepage.html"><img src="imgs/roof.png"></a> --> 
+            <div class="nav-links" id="nawLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="">PROFESSIONAL</a></li>
+                    <li><a href="personalpage.html">PERSONAL</a></li>
+                    <li><a href="aboutpage.html">ABOUT</a></li>
+                    <li><a href="contactpage.html">CONTACT</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="faqpage.html">FAQ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+        <section>
+
+    <!--- about us content -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+    </script>
+    <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+        }
+        
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+    
+    <div id="flip">Click to find out more About Me</div>
+    <div id="panel"><section class="about-me">
+
+        <div class="row">
+            <div class="about-col">
+                <p>Liem Duong: 
+                    Currently studying Business Information Systems at Virginia Commonwealth University</p>
+                <p>Hey, I’m Liem
+                    I'm currently a student living in Richmond, Virginia. I have been photographing for about 8 years and 
+                    videographing for about 4. I’m well experienced in portrait and landscape photography and can curate short 
+                    video edits as well. I am well experienced in using Adobe Lightroom, Photoshop, and Premiere Pro. In 
+                    addition, I also plan on dabbling into film photography in the near future. I’m eager and always open to 
+                    shooting and exploring new ideas. My work is linked in the gallery tabs above. Though, If you would like 
+                    to follow my day to day work, follow my instagram at *Insert Instagram Handle* Thank you!
+                </p>
+
+                <p>In addition, I’d like to make a tab for my other interests, including mood boards, music, fashion, cars, etc. 
+                    It will be not only still images but also a media/audio player for the music for example.
+                </p>
+                
+            </div>
+            <div class="about-col"></div>
+        </div>
+
+    </section></div>
+
+
+    </section>
+
+    <!--JavaScript for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            nawLinks.style.right = "0";
+        }
+        function hideMenu(){
+            nawLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

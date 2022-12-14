@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/
+fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!--<a href="homepage.html"><img src="imgs/roof.png"></a> --> 
+            <div class="nav-links" id="nawLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="">PROFESSIONAL</a></li>
+                    <li><a href="personalpage.html">PERSONAL</a></li>
+                    <li><a href="aboutpage.html">ABOUT</a></li>
+                    <li><a href="contactpage.html">CONTACT</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="faqpage.html">FAQ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+        <section>
+
+    <!--- about us content -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+    </script>
+    <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+        }
+        
+        #panel {
+          padding: 10px;
+          display: none;
+        }
+        </style>
+    
+    <div id="flip">Click to pull down Contact Menu</div>
+    <div id="panel"><section class="contact">
+
+        <div class="row">
+            <div class="contact-col">
+                <p>If you have any questions relating media inquires, availability, or just life,
+                     please feel free to contact me here on this website @liemduongbusiness@email.com
+                </p>
+                <p>Contact directly through the website</p>
+
+                <div>
+                    <table>
+                        <tr>
+                    <label for="first name"><p>First Name</p></label>
+                    <td><input type="text" id="first name" placeholder="Your First Name"></td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                    <label for="last name"><p>Last Name</p></label>
+                    <td><input type="text" id="last name" placeholder="Your Last Name"></td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                    <label for="email"><p>Email Address</p></label>
+                    <td><input type="text" id="email" placeholder="Your Email Adress"></td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <label for="question type"><p>Question Type</p></label>
+                            <td><select name="question type" id="question type">
+                                <option value="general question">General Question</option>
+                                <option value="rates for specific event">Rates for Specific Event</option>
+                                <option value="misc">Misc</option></select></td>
+                            </select>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                    <label for="message"><p>Message</p></label>
+                    <td><input type="text" id="message" placeholder="Your Message" style="height: 200px"></td>
+                        </tr>
+                    </table>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+
+                </div>
+
+                
+            </div>
+            <div class="about-col"></div>
+        </div>
+
+    </section></div>
+
+
+
+
+
+    </section>
+
+    <!--JavaScript for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            nawLinks.style.right = "0";
+        }
+        function hideMenu(){
+            nawLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
